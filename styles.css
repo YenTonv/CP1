@@ -1,18 +1,69 @@
 /*
-  *** TODO: fill in your header ***
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
-
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
+  Name: Yen Ton
+  Date: 10/10/2023
+  This is the styles.css page for my about and resume files. It is used to give the site a consistent
+  look and feel.
 */
 
-/*
-  Note: This body rule set is to get you started
-*/
+/* Apply a common style to the body of both pages */
 body {
-  background-color: rgb(137, 182, 154);
-  font-family: "Helvetica", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+  background-color: #f0f0f0; /* Match the background color in your HTML */
+  font-family: "Roboto", sans-serif;
+  margin: 0; /* Remove margins to prevent spacing around the body */
+  padding: 0; /* Remove padding to prevent spacing around the body */
+}
+
+/* Style specific to the header section, which may appear on both pages */
+header {
+  padding: 20px;
+  background-color: #0077b6;
+  color: #fff;
+  text-align: center;
+  justify-content: space-between; /* Space elements horizontally */
+}
+
+/* Common styling for resume and about sections */
+.resume-section, .about-section {
+  margin-top: 20px;
+  padding: 20px; /* Add padding to create space around the content */
+}
+
+/* Headings in resume and about sections */
+.resume-section h2, .about-section h2 {
+  font-size: 24px;
+  background-color: #008000 ;
+}
+
+/* Subheadings in resume and about sections */
+.resume-section h3, .about-section h3 {
+  background-color: #90EE90 ;
+}
+
+/* Paragraphs in resume and about sections */
+.resume-section p, .about-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Inline elements with spacing */
+.resume-section .same-line {
+  display: inline;
+  margin-right: 20px; /* Add spacing between the elements */
+}
+
+/* Custom image styling */
+.about-section .custom-image {
+  width: 100px; 
+  height: 100px; 
+}
+
+
+/* Links and hover state */
+a {
+  color: #00008B;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
